@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ESP32-C3_SUPERMINI")(type "KiCad")(uri "/home/ex/kicad/footprints/ESP32-C3_SUPERMINI")(options "")(descr ""))
+  (lib (name "MLP2016H4R7MT0S1")(type "KiCad")(uri "/home/ex/kicad/footprints/MLP2016H4R7MT0S1")(options "")(descr ""))
+  (lib (name "TPS561208DDCT")(type "KiCad")(uri "/home/ex/kicad/footprints/TPS561208DDCT")(options "")(descr ""))
+  (lib (name "SN75LVDS83B")(type "KiCad")(uri "/home/ex/kicad/footprints/SN75LVDS83B")(options "")(descr ""))
+  (lib (name "CYA0630")(type "KiCad")(uri "${KIPRJMOD}/CYA0630.pretty")(options "")(descr ""))
+)
