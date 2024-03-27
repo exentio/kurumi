@@ -14,6 +14,10 @@ instead, short jumper JP1's central pin to VCC.
 For strips running at 12V or more, short JP1 to INT (internal converter).  
 **The buck converter is not designed for voltages over 24V.**  
 
+The data pin is connected to GPIO5, at the moment no ESPhome or WLED
+configuration has been made, you'll have to spin your own until I get the board
+and test everything.  
+
 The board also supports using relays or MOSFETs to cut power to the strip by
 using the broken out pins J3. The EN pin is connected to GPIO4 and can be used
 to control the switching device. Don't forget to short JP2 as needed, whether
