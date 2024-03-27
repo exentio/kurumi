@@ -4245,7 +4245,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100K"
 			(at 81.28 85.09 0)
 			(effects
 				(font
@@ -4254,7 +4254,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 82.042 83.82 90)
 			(effects
 				(font
@@ -4379,7 +4379,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "13.7k"
+		(property "Value" "13.7K"
 			(at 81.28 95.25 0)
 			(effects
 				(font
@@ -4388,7 +4388,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 82.042 93.98 90)
 			(effects
 				(font
@@ -5121,7 +5121,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
 			(at 155.9052 106.68 0)
 			(effects
 				(font
@@ -5130,7 +5130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2305121703_Honor-Elec-GVM1V471M0810_C5456767.pdf"
 			(at 154.94 102.87 0)
 			(effects
 				(font
@@ -5383,7 +5383,7 @@
 		(at 158.75 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "63e2994e-16f1-430e-8d2b-ade4006f9abd")
@@ -5522,7 +5522,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "658f7423-594c-4ed1-8d21-431753d4afee")
@@ -6455,7 +6455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2402201427_SHOU-HAN-CYA0630-10UH_C5189958.pdf"
 			(at 77.47 78.74 0)
 			(effects
 				(font
@@ -6560,7 +6560,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "dbdf14c3-127d-418d-8762-144554208c90")
@@ -6777,7 +6777,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f31da5b9-796c-41f0-beb3-5645feb548f0")
@@ -6932,7 +6932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 94.9452 92.71 0)
 			(effects
 				(font
@@ -6979,7 +6979,7 @@
 		(at 148.59 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "fdf02f3e-f251-4e30-9b4c-9d2ee94da0f0")

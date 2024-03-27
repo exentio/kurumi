@@ -6,7 +6,7 @@ my friend's needs.
 
 **WARNING: currently untested.**
 
-Designed to run at 5V or any voltage between 12VB and 24V.  
+Designed to run at 5V or any voltage between 12V and 24V.  
 In case of 5V strips, the buck converter part won't need to be populated;
 instead, short jumper JP1's central pin to VCC.  
 **DON'T DO THIS FOR ANY VOLTAGE OVER 5V OR YOU WILL FRY YOUR ESP32.**  
@@ -26,5 +26,5 @@ you want to switch the power or not.
 It's recommended to add insulation over the jumpers and on unpopulated pads on
 the bottom if the buck converter is not used (i.e. electrical or kapton tape).  
 
-![](images/pcb_top.jpg)
-![](images/pcb_bottom.jpg)
+![](images/pcb_top.png)
+![](images/pcb_bottom.png)

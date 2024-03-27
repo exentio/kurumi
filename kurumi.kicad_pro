@@ -59,9 +59,9 @@
         }
       ],
       "drc_exclusions": [
-        "text_height|20800000|27400000|5f57b603-2bf0-4674-8623-ab4bdf34d30b|00000000-0000-0000-0000-000000000000",
-        "text_height|20800000|32500000|0921bd4a-b679-45d8-87c0-bd9900c77015|00000000-0000-0000-0000-000000000000",
-        "text_height|20800000|37600000|35cde43e-c4fb-46fc-b0e0-eeb660980498|00000000-0000-0000-0000-000000000000",
+        "text_height|20800000|28320000|5f57b603-2bf0-4674-8623-ab4bdf34d30b|00000000-0000-0000-0000-000000000000",
+        "text_height|20800000|33420000|0921bd4a-b679-45d8-87c0-bd9900c77015|00000000-0000-0000-0000-000000000000",
+        "text_height|20800000|38520000|35cde43e-c4fb-46fc-b0e0-eeb660980498|00000000-0000-0000-0000-000000000000",
         "text_height|24800000|28200000|831452b4-812d-46e6-93fd-a70c22be9731|00000000-0000-0000-0000-000000000000",
         "text_height|25600000|13100000|c6db5b7d-4b03-4c28-a6a1-dd187279bb38|00000000-0000-0000-0000-000000000000",
         "text_height|25600000|18900000|5b2c4546-c480-4ac2-8893-883612b9526b|00000000-0000-0000-0000-000000000000",
@@ -76,9 +76,9 @@
         "text_height|46100000|39000000|d5dc5b12-5064-4d38-9e8f-fb680eec6b32|00000000-0000-0000-0000-000000000000",
         "text_height|46200000|37700000|9f9c8053-5bd8-41b5-b09b-6963581b595a|00000000-0000-0000-0000-000000000000",
         "text_height|48500000|18600000|2469c0f8-5ae5-473a-a5ba-f803586d783a|00000000-0000-0000-0000-000000000000",
-        "text_thickness|20800000|27400000|5f57b603-2bf0-4674-8623-ab4bdf34d30b|00000000-0000-0000-0000-000000000000",
-        "text_thickness|20800000|32500000|0921bd4a-b679-45d8-87c0-bd9900c77015|00000000-0000-0000-0000-000000000000",
-        "text_thickness|20800000|37600000|35cde43e-c4fb-46fc-b0e0-eeb660980498|00000000-0000-0000-0000-000000000000",
+        "text_thickness|20800000|28320000|5f57b603-2bf0-4674-8623-ab4bdf34d30b|00000000-0000-0000-0000-000000000000",
+        "text_thickness|20800000|33420000|0921bd4a-b679-45d8-87c0-bd9900c77015|00000000-0000-0000-0000-000000000000",
+        "text_thickness|20800000|38520000|35cde43e-c4fb-46fc-b0e0-eeb660980498|00000000-0000-0000-0000-000000000000",
         "text_thickness|25600000|13100000|c6db5b7d-4b03-4c28-a6a1-dd187279bb38|00000000-0000-0000-0000-000000000000",
         "text_thickness|25600000|18900000|5b2c4546-c480-4ac2-8893-883612b9526b|00000000-0000-0000-0000-000000000000",
         "text_thickness|27500000|16000000|3551eec4-1ff0-4585-99b2-12e61c0a6b8c|00000000-0000-0000-0000-000000000000",
@@ -574,11 +574,95 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
