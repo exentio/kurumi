@@ -18,3 +18,9 @@ The board also supports using relays or MOSFETs to cut power to the strip by
 using the broken out pins J3. The EN pin is connected to GPIO4 and can be used
 to control the switching device. Don't forget to short JP2 as needed, whether
 you want to switch the power or not.  
+
+It's recommended to add insulation over the jumpers and on unpopulated pads on
+the bottom if the buck converter is not used (i.e. electrical or kapton tape).  
+
+![](images/pcb_top.jpg)
+![](images/pcb_bottom.jpg)

@@ -2562,7 +2562,7 @@
 			)
 		)
 		(property "Value" "5V source"
-			(at 0 1.9 270)
+			(at 0 1.9 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "328c9a1e-c832-4994-971a-c261236f25ac")
@@ -4395,15 +4395,15 @@
 		(uuid "a8d2da73-0876-4d1e-9126-a1b234d79850")
 		(at 29.1 30 -90)
 		(property "Reference" "L1"
-			(at -3.6 4.3 90)
+			(at -1.8 4.3 270)
 			(layer "B.SilkS")
-			(uuid "ca06750c-4250-49f0-85ca-3627a5723bb1")
+			(uuid "831452b4-812d-46e6-93fd-a70c22be9731")
 			(effects
 				(font
 					(size 0.9144 0.9144)
 					(thickness 0.1524)
 				)
-				(justify left mirror)
+				(justify right mirror)
 			)
 		)
 		(property "Value" "10uH"
@@ -4411,7 +4411,7 @@
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "35cbf5ab-31c2-4b82-949d-f7c784dc31d9")
+			(uuid "1bc818d0-4a2c-4b1f-a176-5694b56178ef")
 			(effects
 				(font
 					(size 0.9144 0.9144)
@@ -4425,7 +4425,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4ace7bd7-70ce-413e-8528-ee5264aea210")
+			(uuid "5c36bf87-f28b-4ae7-9fe7-ca176051e5ac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,7 +4438,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8342691e-bf9b-4b8e-9335-5d29ee30741c")
+			(uuid "aa374c3e-d67c-4ff7-ae5d-476ac6426f7b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4451,7 +4451,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c6abb7a5-1a6a-4201-a3e4-a25882e1d101")
+			(uuid "83506fc6-fd31-4de9-9c95-b239bd4d2eac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,10 +4459,31 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+		(property "JLC_3DModel" "CYA0630"
+			(at 0 -4.5 90)
+			(unlocked yes)
+			(layer "Cmts.User")
+			(hide yes)
+			(uuid "b94c5e26-5380-4b02-9fb1-888703f63ada")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_3D_Size" "${REFERENCE}"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "Cmts.User")
+			(hide yes)
+			(uuid "3c1a3347-5c9f-403e-b97b-fa6a968aced6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/cd8dd0a7-ee49-45ca-886d-da5a0e9fc99c")
-		(sheetname "Root")
-		(sheetfile "kurumi.kicad_sch")
 		(fp_line
 			(start 3.3 3.3)
 			(end -3.2999 3.3)
@@ -4471,7 +4492,7 @@
 				(type default)
 			)
 			(layer "B.SilkS")
-			(uuid "b7e4aa26-903d-45d8-8e42-489fee0780b3")
+			(uuid "7b0223e6-69ec-45ce-94a2-4e93ed730a41")
 		)
 		(fp_line
 			(start -3.2999 1.9811)
@@ -4481,7 +4502,7 @@
 				(type default)
 			)
 			(layer "B.SilkS")
-			(uuid "35ce145a-8625-44f0-8c21-e3116be85d4c")
+			(uuid "1a6d2c6e-f470-4001-8d0e-0b0e441a4992")
 		)
 		(fp_line
 			(start 3.3 1.9811)
@@ -4491,7 +4512,7 @@
 				(type default)
 			)
 			(layer "B.SilkS")
-			(uuid "863e7765-f1bf-4805-a214-1ead461571a8")
+			(uuid "e4fbcbcc-5822-4f80-b874-9ac0fff6bc21")
 		)
 		(fp_line
 			(start -3.2999 -3.3)
@@ -4501,7 +4522,7 @@
 				(type default)
 			)
 			(layer "B.SilkS")
-			(uuid "44afd33d-42fa-4c1c-96d9-7fcd53e81cbb")
+			(uuid "35eda8c1-dfc9-4808-8b52-cf6d7dbefc29")
 		)
 		(fp_line
 			(start 3.3 -3.3)
@@ -4511,7 +4532,7 @@
 				(type default)
 			)
 			(layer "B.SilkS")
-			(uuid "7588e0bb-edc1-48fc-9e4b-da2cb8e70fc5")
+			(uuid "bcbab5a2-01e1-4849-a54b-ca2191199c84")
 		)
 		(fp_line
 			(start 3.3 -3.3)
@@ -4521,7 +4542,7 @@
 				(type default)
 			)
 			(layer "B.SilkS")
-			(uuid "cde27a07-8957-4c6c-92a9-889fa04a6858")
+			(uuid "94e6d5ce-ae0b-4b93-8772-4f33fcdc7e0b")
 		)
 		(pad "1" smd rect
 			(at -2.85 0 270)
@@ -4530,9 +4551,8 @@
 			(net 5 "Net-(U3-SW)")
 			(pinfunction "1")
 			(pintype "passive")
-			(solder_mask_margin 0.0508)
 			(thermal_bridge_angle 0)
-			(uuid "a09baccd-00e0-4b30-9401-9fac4eb0c805")
+			(uuid "edbbe60c-a5be-47e0-a61d-61d45aaa6ba0")
 		)
 		(pad "2" smd rect
 			(at 2.85 0 270)
@@ -4541,15 +4561,14 @@
 			(net 6 "V_OUT")
 			(pinfunction "2")
 			(pintype "passive")
-			(solder_mask_margin 0.0508)
 			(thermal_bridge_angle 0)
-			(uuid "63b96a79-fce5-4557-ab2e-3f4f44fe8d1c")
+			(uuid "2b42c0ec-5d38-4e2f-82fe-53f6a92d854d")
 		)
 		(zone
 			(net 0)
 			(net_name "")
 			(layer "User.4")
-			(uuid "800e9557-f257-4a7a-83f6-264818a8a11f")
+			(uuid "7602208e-698a-4b39-b561-1d8a43da9d24")
 			(hatch edge 0.5)
 			(priority 100)
 			(connect_pads yes
@@ -4578,7 +4597,7 @@
 			(net 0)
 			(net_name "")
 			(layer "User.4")
-			(uuid "fce73eea-6dcc-4986-987d-5b51e28b0d99")
+			(uuid "3e5f93fa-c476-47c5-95e1-d17a81202a52")
 			(hatch edge 0.5)
 			(priority 100)
 			(connect_pads yes
