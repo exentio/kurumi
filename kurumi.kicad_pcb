@@ -4395,7 +4395,7 @@
 		(uuid "a8d2da73-0876-4d1e-9126-a1b234d79850")
 		(at 29.1 30 -90)
 		(property "Reference" "L1"
-			(at -1.8 4.3 270)
+			(at -1.8 4.3 -90)
 			(layer "B.SilkS")
 			(uuid "831452b4-812d-46e6-93fd-a70c22be9731")
 			(effects
@@ -4468,7 +4468,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "JLC_3D_Size" "${REFERENCE}"
@@ -4480,7 +4482,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(path "/cd8dd0a7-ee49-45ca-886d-da5a0e9fc99c")
