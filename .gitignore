@@ -16,6 +16,8 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+meta/
+production/
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -24,4 +26,4 @@ fp-info-cache
 *.dsn
 *.ses
 
-jlcpcb
+jlcpcb/
