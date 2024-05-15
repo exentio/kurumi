@@ -4,7 +4,7 @@ Addressable LED strip controller, based on the ESP32-C3 SuperMini.
 This is a shrinkage of a previous private project that was quite janky due to
 my friend's needs.
 
-**WARNING: currently untested.**
+**WARNING: currently not working properly.**
 
 Designed to run at 5V or any voltage between 12V and 24V.  
 In case of 5V strips, the buck converter part won't need to be populated;
