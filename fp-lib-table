@@ -1,6 +1,7 @@
 (fp_lib_table
   (version 7)
   (lib (name "ESP32-C3_SUPERMINI")(type "KiCad")(uri "${KIPRJMOD}/lib/ESP32-C3_SUPERMINI")(options "")(descr ""))
-  (lib (name "SN75LVDS83B")(type "KiCad")(uri "${KIPRJMOD}/lib/SN75LVDS83B")(options "")(descr ""))
-  (lib (name "CYA0630")(type "KiCad")(uri "${KIPRJMOD}/lib/CYA0630.pretty")(options "")(descr ""))
+  (lib (name "CYA0630")(type "KiCad")(uri "${KIPRJMOD}/lib/CYA0630")(options "")(descr ""))
+  (lib (name "TPS561208DDCT")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS561208DDCT")(options "")(descr ""))
+  (lib (name "exentio_pcb_art")(type "KiCad")(uri "${KIPRJMOD}/lib/exentio_pcb_art")(options "")(descr ""))
 )
