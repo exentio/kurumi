@@ -3899,6 +3899,39 @@
 		)
 		(uuid "ff9317a2-9ba5-469d-843b-282c4ba0701e")
 	)
+	(label "BOOT"
+		(at 53.34 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bb6e27e-7db4-4326-84ac-e0d7f0c77bb8")
+	)
+	(label "SW"
+		(at 53.34 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c6bda7d-a9ac-4841-9e43-e5bbe79a8b9c")
+	)
+	(label "FB"
+		(at 53.34 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3b75bfe-31b5-498c-9da1-44cfa633a6d9")
+	)
 	(global_label "VDD_EN"
 		(shape input)
 		(at 154.94 74.93 0)
