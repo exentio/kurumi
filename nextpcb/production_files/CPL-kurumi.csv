@@ -1,0 +1,15 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,29.5,-28.1,0.0,bottom
+C2,1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,32.3,-25.5,90.0,bottom
+C3,2.2uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,31.17,-40.36,0.0,bottom
+C4,100nF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,31.01,-35.39,0.0,bottom
+C5,33uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,31.1,-31.39,0.0,bottom
+C6,470uF,CP_Elec_8x10.5,18.5,-18.5,90.0,bottom
+L1,10uH,CYA0630,36.3,-33.75,90.0,bottom
+R1,470,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,20.25,-33.42,180.0,bottom
+R2,4.7K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,23.0,-27.3,0.0,bottom
+R3,4.7K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,43.2,-25.0,0.0,bottom
+R4,100K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,26.93,-37.6175,270.0,bottom
+R5,13.7K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,27.73,-40.32,180.0,bottom
+U2,SN74LVC1T45DRL,SOT-563,29.6,-25.25,90.0,bottom
+U3,TPS54308,SOT-23-6_Handsoldering,30.3,-37.97,0.0,bottom
