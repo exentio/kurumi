@@ -11,5 +11,5 @@ R2,4.7K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,23.0,-27.3,0.0,bottom
 R3,4.7K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,43.2,-25.0,0.0,bottom
 R4,100K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,26.93,-37.6175,270.0,bottom
 R5,13.7K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,27.73,-40.32,180.0,bottom
-U2,SN74LVC1T45DRL,SOT-563,29.6,-25.25,90.0,bottom
-U3,TPS54308,SOT-23-6_Handsoldering,30.3,-37.97,0.0,bottom
+U2,SN74LVC1T45DRL,SOT-563,29.6,-25.25,0.0,bottom
+U3,TPS54308,SOT-23-6_Handsoldering,30.3,-37.97,180.0,bottom
