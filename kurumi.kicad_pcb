@@ -667,6 +667,7 @@
 			(uuid "beca64ae-0075-47bf-b0db-bc7e6d2a72cc")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2783,17 +2784,6 @@
 				(pts
 					(xy 37.8 31.8499) (xy 37.8 30.1499) (xy 34.8 30.1499) (xy 34.8 31.8499)
 				)
-			)
-		)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/IND-SMD_L7.2-W6.6-H3.0_GPSR07X0.step"
-			(offset
-				(xyz -0.0001 -0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 0)
 			)
 		)
 	)
